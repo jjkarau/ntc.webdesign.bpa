@@ -1,0 +1,31 @@
+<footer>
+
+    <section>
+        <h1>Developers</h1>
+        <p> Seth Ficke
+        <br> Jonah Karau
+        <br> Tonya Bricco-Meske
+        <br> Josh Dickinson
+        
+        </p>
+
+    </section>
+    <section>
+        <h1>Sponsorship</h1>
+        <p>
+            Competition entry graciously sponsored by NTC. Visit NTC online at <a href="http://www.ntc.edu">www.ntc.edu</a>.
+            <br>Northcentral Technical College - Wausau, WI
+            </p>
+    </section>
+    <section>
+        <h1>Copyright</h1>
+        <p>
+            &copy;
+            <script>
+                document.write((new Date).getFullYear())
+            </script> reserved by the producers.
+            <br> Do not reproduce without permission.
+            <span>All other possible trademarks used are the property of their respective owners.</span>
+        </p>
+    </section>
+</footer>

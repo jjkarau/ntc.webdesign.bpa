@@ -1,0 +1,4 @@
+<script src="../libraries/client/js/site.js"></script>
+<script src="../libraries/client/js/tab_browser.js"></script>
+<script src="../libraries/client/js/responsive_nav.js"></script>
+<script src="../libraries/client/js/ajax.js"></script>

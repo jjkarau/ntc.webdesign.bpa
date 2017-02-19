@@ -1,0 +1,246 @@
+/*
+            str_container: "tabcontents",
+            str_nextButton: "next_tab_button",
+            str_previousButton: "previous_tab_button",
+            str_currentTabNumber: "current_tab",
+            str_TabCountNumber: "tab_count"
+
+*/
+
+::selection {
+  background: #FAB940; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #FFBE4A; /* Gecko Browsers */
+}
+
+.tab_controls {
+    background-color: black;
+    height: 30px;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    color: #FFBE4A;
+    width: 100%;
+    padding: 0;
+}
+
+.tab_controls .left {
+    text-align: left;
+}
+
+.tab_controls .right {
+    text-align: right;
+    margin-right: 1em;
+}
+
+.tab_controls .right span {
+    
+}
+
+.tab_controls .right span:hover {
+    cursor: pointer;
+}
+
+.tab_controls>* {
+    display: block;
+    width: 50%;
+    min-height: 3em;
+}
+
+.tab_controls:first-child {
+    flex-grow: 1;
+}
+
+.tabcontents {
+    display: block;
+    padding: .5%;
+    width: 100% !important;
+}
+
+.tabcontents>*:not(.anti-flash) {
+    display: none;
+}
+
+.tabcontents h1 {
+    color: black;
+    font-size: 2em;
+    width: 100%;
+}
+
+.tabcontents h2 {
+    color: black;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.tabcontents p {
+    color: #ababab;
+    font-size: 1.1em;
+    width: 80%;
+}
+
+.tabcontents>* {
+    background-color: black;
+    width: 93.55%;
+    margin: 0;
+    max-width: 1250px;
+    margin: auto;
+}
+
+.tabcontents .text-on-image{
+    width: 100% !important;
+    padding: 1%;
+}
+
+.tabcontents>* p:first-letter {}
+.tabcontents>* h1,
+.tabcontents>* h2 {
+    color: #FFBE4A;
+    padding: 0%;
+}
+
+@media screen and (min-width: 500px) {
+    .tabcontents {
+        padding: 1%;
+    }
+    .tabcontents>* {
+        width: 100%;
+    }
+    .tabcontents>* img {
+        width: 100%;
+        padding: 1%;
+    }
+    
+    .tab_controls {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    
+    .tabcontents {
+        width: 100%;
+        margin: auto;
+        padding: 2%;
+    }
+    
+    .tabcontents>* {
+        width: 100%;
+    }
+    
+    .tabcontents>* .text-on-image {
+        width: 65%;
+        float: left;
+        padding: 1%;
+        margin-right: -55%;
+    }
+    
+    .tab_controls {
+        margin-right: 2em;
+    }
+}
+
+.next_tab_button {
+    width: 16px;
+    height: 16px;
+}
+
+.previous_tab_button {
+    width: 16px;
+    height: 16px;
+}
+
+.current_tab {}
+.tab_count {}
+.hidden {
+    display: none;
+}
+
+.previous_tab_container {
+    border: 1px solid #FFBE4a;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Germania One', cursive;
+    margin-right: 1%;
+    margin-top: -1px;
+    padding: 5px;
+}
+
+.next_tab_container {
+    border: 1px solid #FFBE4a;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: 'Germania One', cursive;
+    margin-right: 3%;
+    margin-top: -1px;
+    padding: 5px;
+}
+
+.previous_tab_container:hover {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-right: 1%;
+    margin-top: -1px;
+    padding: 5px;
+}
+
+.next_tab_container:hover {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-right: 3%;
+    margin-top: -1px;
+    padding: 5px;
+}
+
+.previousButton {
+    display: block;
+    max-width: 18px;
+}
+
+.nextButton {
+    display: block;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    max-width: 18px;
+}
+
+@media screen and (max-width: 767px) {
+    
+    .previousButton {
+        display: block;
+        width: 18px;
+    }
+
+    .nextButton {
+        display: block;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        width: 18px;
+    }
+}
+
+@media screen and (max-width: 279.999px) {
+    
+    .previousButton {
+        display: block;
+        width: 16px;
+    }
+
+    .nextButton {
+        display: block;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        width: 16px;
+    }
+}

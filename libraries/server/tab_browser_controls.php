@@ -1,0 +1,1 @@
+ <?php echo file_get_contents("../../partial_views/tab_browser_controls.view"); ?>
