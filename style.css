@@ -284,8 +284,7 @@ IMG.news {
     padding: 10px;
     border-radius: 3px;
     background-color: transparent;
-    font-family;
-    Trebuchet MS;
+    font-family: Trebuchet MS;
     font-size: 0.875em;
     font-weight: 600;
     text-transform: uppercase;
@@ -338,7 +337,7 @@ IMG.news {
     #footer #fbox1 {
         float: left;
         width: 400px;
-        margin-right: 50px;
+        margin-left: 50px;
     }
 
     #footer #fbox2 {
@@ -384,4 +383,16 @@ IMG.moddb {
     padding: 4em 2em;
     padding-bottom: 0px;
     vertical-align: top;
+}
+
+/*********************************************************************************/
+/* Images                                                                        */
+/*********************************************************************************/
+
+#carving {
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-left: 50px;
+    width: 325px;
+    height: 300px;
 }
