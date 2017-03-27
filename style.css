@@ -22,6 +22,7 @@ body {
     font-size: 12pt;
     font-weight: 400;
     color: #FFFFFF;
+    text-shadow: -1px 0 #FFBE4a, 0 1px #FFBE4a, 1px 0 #FFBE4a, 0 -1px #FFBE4a;
 }
 
 h1, h2, h3 {
