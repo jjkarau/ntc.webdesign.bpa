@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<!--<script type="text/javascript">
+    // Redirects the browser to the landing page from the default route.
+    location = "views/landing.php";
+</script>
+    
+    Commented out to keep in case we need it -->
+
+<html>
+
+<head>
+    <title>Spooky Recipes</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- NOTE TO SELF: Flush out the meta here -->
+</head>
+
+<body>
+    <div class="menu">
+        <ul class="tabs" data-persist="true">
+            <span id="siteTitle">Halloween DIY</span>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Link1</a></li>
+            <li><a href="#">Link2</a></li>
+            <li><a href="#">Link3</a></li>
+            <li><a href="#">Link4</a></li>
+        </ul>
+
+        <ul class="social">
+            <!-- We can remove these if desired or move them to the bottom! -->
+            <li>
+                <a href="#"><img src="images/facebook121.png" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/twitter121.png" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/you-tube.png" /></a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="logo" class="container">
+        <a href="#">
+            <img class="header" src="images/header01.png" width="577" height="135" alt="" />
+        </a>
+    </div>
+
+    <div id="recipes" class="container">
+        <!-- "page" IDs are actual content for the page, this is where you would put all the content that you find! I have yet to actually move the content over. Feel free to create a copy of this page for each page of content for now, I'll be implementing the JavaScript applet thing once we have all the content and stuff! -->
+        <div id="tabcontents">
+            <section>
+                <h1>Bat Cupcakes</h1>
+                <div id="jackolanternColumns">
+                    <div>
+                        <p>Kids love these scary treats!</p>
+                        <br/>
+                        <h2>Ingredients</h2>
+                        <br />
+                        <ul>
+                            <li>One package (18.25 ounce) chocolate cake mix.</li>
+                            <li>One (16 ounce) container chocolate frosting.</li>
+                            <li>One package chocolate covered wafers.</li>
+                            <li>One (6 ounce) bag milk chocolate candy kisses, unwrapped.</li>
+                            <li>1 tablespoon red gel icing.</li>
+                        </ul>
+                        <br />
+                        <h2>Process</h2>
+                        <br />
+
+                        <ul>
+                            <li>Prepare the cake mix according to package directions for cupcakes. Cool.</li>
+                            <li>Frost cupcakes with chocolate frosting.</li>
+                            <li>Break the cookies in half, and press two halves into the top of each cupcake for wings.</li>
+                            <li>Place a chocolate kiss in front of the cookies with the point facing forward for the body.</li>
+                            <li>Make two beady little eyes with the red gel icing towards the point of the kiss.</li>
+                        </ul>
+
+                    </div>
+                    <div><img src="graphics/batcupcake.jpg" alt="Bat Cupcakes">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h1>Spiderweb Ganache Cake</h1>
+                <div id="jackolanternColumns">
+                    <div>
+                        <p>The perfect treat for your spooky party!</p>
+                        <h2>Ingredients</h2>
+                        <br/>
+                        <ul>
+                            <li>One box of chocolate cake mix</li>
+                            <li>1/2 cup butter, softened</li>
+                            <li>1 cup sugar</li>
+                            <li>One container (7-1/2 oz) of marshmallow fluff</li>
+                            <li>1 teaspoon vanilla</li>
+                            <li>3/4 cup heavy whipping cream</li>
+                            <li>1-1/2 cup semisweet chocolate chips</li>
+                            <li>One tube of white frosting</li>
+                        </ul>
+                        <br/>
+                        <h2>Process</h2>
+                        <br/>
+                        <ul>
+                            <li>Prepare the cake mix according to the directions on the box. Bake in two 9" pans. Cool.</li>
+                            <li>To make the frosting: combine butter, sugar, marshmallow fluff, and vanilla. Beat with a hand mixer until fluffy.</li>
+                            <li>Place one cake on a platter, frost, and place the second cake on top.</li>
+                            <li>To make the ganache: In a small saucepan, heat the heavy whipping cream until it bubbles. In the meantime, melt the chocolate chips in the microwave. Pour the melted chocolate over the bubbly whipping cream. Let stand 2 minutes, then whisk until chocolate is completely combined.</li>
+                            <li>Pour the ganache over the cake.</li>
+                            <li>Frost a spiral on top of the cake with the white frosting. Using a toothpick, drag the frosting to create a spiderweb.</li>
+                        </ul>
+                    </div>
+                    <div><img src="graphics/spiderwebcake.jpg" alt="Spiderweb Ganache Cake">
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+
+
+        <div id="footer" class="container">
+            <!-- I have no clue what my HTML structure was here .... feel free to experiment to find out -->
+
+            <div id="fbox1">
+                <h1>Developers</h1>
+                <br> Jonah Karau
+                <br> Tonya Bricco-Meske
+                <br> Josh Dickinson
+            </div>
+
+            <div id="fbox2">
+                <h1>Sponsorship</h1>
+                <p>
+                    Competition entry graciously sponsored by NTC. Visit NTC online at <a href="http://www.ntc.edu">www.ntc.edu</a>.
+                    <br>Northcentral Technical College - Wausau, WI
+                </p>
+            </div>
+
+
+        </div>
+
+        <div id="copyright" class="container">
+            <h1>Copyright</h1>
+            <p>
+                &copy;
+                <script>
+                    document.write((new Date).getFullYear())
+                </script> reserved by the producers.
+                <br> Do not reproduce without permission.
+                <span>All other possible trademarks used are the property of their respective owners.</span>
+            </p>
+        </div>
+
+</body>
+
+</html>
