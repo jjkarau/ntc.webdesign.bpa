@@ -22,7 +22,6 @@ body {
     font-size: 12pt;
     font-weight: 400;
     color: #FFFFFF;
-    text-shadow: -1px 0 #FFBE4a, 0 1px #FFBE4a, 1px 0 #FFBE4a, 0 -1px #FFBE4a;
 }
 
 h1, h2, h3 {
@@ -396,10 +395,27 @@ IMG.moddb {
 /* Images                                                                        */
 /*********************************************************************************/
 
-#carving {
+#carving, #hauntedImage, #cornImage {
     border: 2px solid white;
     border-radius: 25px;
     margin-left: 50px;
     width: 325px;
     height: 300px;
+    float: left;
+    margin: 15px 15px;
+}
+
+.hauntedImage {
+    border: 2px solid white;
+    border-radius: 25px;
+    height: auto;
+    float: left;
+    width: auto;
+    margin: 15px 15px;
+/*
+    margin-left: auto;
+    margin-right: auto;
+*/
+    max-height: 20%;
+    max-width: 20%;
 }
