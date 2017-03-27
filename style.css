@@ -14,7 +14,9 @@ html {
 }
 
 body {
-    margin: 0px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 12pt;
@@ -173,6 +175,10 @@ IMG.header {
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
 }
 
 /*********************************************************************************/
