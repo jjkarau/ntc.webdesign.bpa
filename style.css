@@ -33,6 +33,10 @@ h1, h2, h3 {
     color: #FFBE4a;
 }
 
+.developers {
+    padding-left: 0;
+}
+
 p {
     line-height: 180%;
     margin-top: 0;
@@ -74,7 +78,7 @@ p {
 
     .menu li {
         display: inline-block;
-        padding-left: 50px;
+        padding-left: 25px;
         font-size: 17px;
     }
 
@@ -131,7 +135,7 @@ ul.tabs {
 
         ul.tabs li a:hover {
             text-decoration: none;
-            color: #161410;
+            color: #FFBE4a;
         }
 
 /*********************************************************************************/
@@ -216,7 +220,15 @@ IMG.header {
 }
 
 .container {
-    margin: 0px auto;
+    margin: 0px 0px;
+}
+
+#tabcontents section {
+    margin-top: 30px;
+}
+
+.menu a:hover {
+    color: yellow;
 }
 
 /*********************************************************************************/
@@ -345,13 +357,17 @@ IMG.news {
 
     #footer #fbox1 {
         float: left;
-        width: 400px;
+        width: 300px;
         margin-left: 50px;
     }
 
+#fbox1 h1 {
+    text-align: left;
+}
+
     #footer #fbox2 {
-        float: left;
-        width: 400px;
+        float: right;
+        width: 300px;
     }
 
     #footer #fbox3 {
@@ -368,7 +384,7 @@ IMG.news {
     background-color: #000000;
     font-size: 0.75em;
     letter-spacing: 0.20em;
-    text-align: right;
+    text-align: left;
     color: #FFFFFF;
 }
 
@@ -379,7 +395,7 @@ IMG.news {
     }
 
     #copyright p {
-        text-align: right;
+        text-align: left;
     }
 
 IMG.kilroy {
@@ -401,20 +417,19 @@ IMG.moddb {
 #carving, #hauntedImage, #cornImage, #food {
     border: 2px solid white;
     border-radius: 25px;
-    margin-left: 50px;
-    width: 325px;
-    height: 300px;
-    float: left;
-    margin: 15px 15px;
+    width: 225px;
+    height: 200px;
+    float: right;
+    margin: 5px 5px;
 }
 
 .hauntedImage {
     border: 2px solid white;
     border-radius: 25px;
     height: auto;
-    float: left;
+    float: right;
     width: auto;
-    margin: 15px 15px;
+    margin: 10px 5px;
 /*
     margin-left: auto;
     margin-right: auto;
