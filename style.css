@@ -74,7 +74,7 @@ p {
 
     .menu li {
         display: inline-block;
-        padding-left: 50px;
+        padding-left: 25px;
         font-size: 17px;
     }
 
@@ -131,7 +131,7 @@ ul.tabs {
 
         ul.tabs li a:hover {
             text-decoration: none;
-            color: #161410;
+            color: #FFBE4a;
         }
 
 /*********************************************************************************/
