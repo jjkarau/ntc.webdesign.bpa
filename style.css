@@ -29,6 +29,8 @@ h1, h2, h3 {
     padding: 0;
     padding-left: 50px;
     padding-top: 0px;
+    font-family: 'Germania One', cursive;
+    color: #FFBE4a;
 }
 
 p {
@@ -45,6 +47,7 @@ p {
 
 #siteTitle {
     font-family: 'Germania One', cursive;
+    color: #FFBE4a;
     font-size: 24px;
     padding-left: 1em;
 }
@@ -395,7 +398,7 @@ IMG.moddb {
 /* Images                                                                        */
 /*********************************************************************************/
 
-#carving, #hauntedImage, #cornImage {
+#carving, #hauntedImage, #cornImage, #food {
     border: 2px solid white;
     border-radius: 25px;
     margin-left: 50px;
