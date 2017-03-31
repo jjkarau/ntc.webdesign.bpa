@@ -57,7 +57,7 @@ p {
 
 .menu {
     background-color: rgba(0,0,0,1);
-    border-bottom: 6px solid #423838;
+    border-bottom: 2px solid #FFBE4a;
     font-family: 'Germania One', cursive;
     left: 0;
     margin-left: 0;
@@ -117,14 +117,12 @@ p {
 
 ul.social {
     background-color: rgba(0,0,0,1);
-    border-bottom: 6px solid #423838;
     margin-right: 2%;
     padding: -1em;
 }
 
 ul.tabs {
     background-color: rgba(0,0,0,1);
-    border-bottom: 6px solid #423838;
     height: 60px;
 }
 

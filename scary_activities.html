@@ -1,46 +1,34 @@
-<!DOCTYPE html>
-
-<!--<script type="text/javascript">
-    // Redirects the browser to the landing page from the default route.
-    location = "views/landing.php";
-</script>
-    
-    Commented out to keep in case we need it -->
+﻿<!DOCTYPE html>
 
 <html>
 
 <head>
-    <title>Scary Activities</title>
+    <title>Halloween DIY | Scary Activities</title>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- NOTE TO SELF: Flush out the meta here -->
 </head>
 
 <body>
     <div class="menu">
         <ul class="tabs" data-persist="true">
-          <li><a href="index.html">Home</a></li>
+            <span id="siteTitle">Halloween DIY</span>
+            <li>|</li>
+            <li><a href="index.html">Home</a></li>
+            <li>|</li>
             <li><a href="pumpkin_carving.html">Pumpkin Carving</a></li>
+            <li>|</li>
             <li><a href="scary_activities.html">Scary Activities</a></li>
+            <li>|</li>
             <li><a href="spooky_recipes.html">Spooky Recipes</a></li>
         </ul>
+    </div>
 
-        <ul class="social">
-            <!-- We can remove these if desired or move them to the bottom! -->
-            <li>
-                <a href="#"><img src="images/facebook.png" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="images/twitter.png" /></a>
-            </li>
-            <li>
-                <a href="#"><img src="images/youtube.png" /></a>
-            </li>
-        </ul>
+    <div id="logo" class="container">
+        <img class="header" src="graphics/headerpic.jpg" alt="Halloween DIY site landing banner" />
     </div>
     
     <div id="activities" class="container">
-        <!-- "page" IDs are actual content for the page, this is where you would put all the content that you find! I have yet to actually move the content over. Feel free to create a copy of this page for each page of content for now, I'll be implementing the JavaScript applet thing once we have all the content and stuff! -->
         <div id="tabcontents">
             <section>
                 <h1>Trick Or Treating</h1>
@@ -68,25 +56,17 @@
             </section>
         </div>
         
-        <div id="footer" class="container">
-            <!-- I have no clue what my HTML structure was here .... feel free to experiment to find out -->
-
+        <div id="footer" class="container" alt="Informational section above the footer">
             <div id="fbox1">
                 <h1 class="developers">Developers</h1>
-                <br> Jonah Karau
-                <br> Tonya Bricco-Meske
-                <br> Josh Dickinson
+                <br /> <span id="developerName">Jonah Karau</span>
+                <br /> <span id="developerName">
+                    Tonya Bricco-Meske</spanid="developerName">
+                    <br /> <span id="developerName">
+                        Josh Dickinson</spanid="developerName"><br /><br /><br />
+                        <h1 class="developers">Sponsorship</h1>
+                        <br /> <span id="developerName">Competition entry graciously sponsored by NTC. Visit NTC online at <a href="http://www.ntc.edu" class="linkfont">www.ntc.edu</a>.<br>Northcentral Technical College - Wausau, WI</span>
             </div>
-
-            <div id="fbox2">
-                <h1 class="developers">Sponsorship</h1>
-                <p>
-                    <br>Competition entry graciously sponsored by NTC. Visit NTC online at <a href="http://www.ntc.edu" class="linkfont">www.ntc.edu</a>.
-                    <br>Northcentral Technical College - Wausau, WI
-                </p>
-            </div>
-
-
         </div>
 
         <div id="copyright" class="container">
