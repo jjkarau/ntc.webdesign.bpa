@@ -59,6 +59,7 @@ p {
     background-color: rgba(0,0,0,1);
     border-bottom: 6px solid #423838;
     font-family: 'Germania One', cursive;
+    left: 0;
     margin-left: 0;
     position: absolute;
     top: 0;
