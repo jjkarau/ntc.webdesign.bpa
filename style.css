@@ -302,26 +302,21 @@ img.header {
     }
 
     #footer #fbox1 {
-        float: left;
-        width: 200px;
+        display: auto;
         margin: auto;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
-    }
-
-    #footer #fbox2 {
-        float: right;
-        width: 300px;
-        margin: auto;
-        text-align: center;
-    }
-
-    #footer #fbox3 {
-        float: right;
         width: 300px;
     }
+
+#developerName {
+    text-shadow: 3px 3px 3px #000;
+}
 
 .developers {
     padding-left: 0;
+    text-shadow: 4px 4px 4px #000;
 }
 
 .footer {
@@ -333,12 +328,12 @@ img.header {
 /*********************************************************************************/
 
 #copyright {
-    padding: 3em;
     background-color: #000000;
     border-top: 6px solid #423838;
-    letter-spacing: 0.20em;
-    text-align: left;
     color: #FFFFFF;
+    letter-spacing: 0.20em;
+    padding: 3em;
+    text-align: left;
 }
 
     #copyright a {
