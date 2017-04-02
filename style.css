@@ -10,7 +10,7 @@ html, body {
 }
 
 html {
-    background: #161410 url(images/background.jpg) no-repeat center center fixed;
+    background: #161410 url(graphics/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
