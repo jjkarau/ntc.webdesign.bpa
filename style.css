@@ -190,6 +190,49 @@ ul.tabs li {
     color: #FFBE4a;
 }
 
+#pageContent {
+    /* Placeholder for organization. Can be used if needed */
+}
+
+    #pageContent h1 {
+        font-size: 32px;
+        padding-bottom: 25px;
+    }
+
+    #pageContent p {
+        font-size: 12px;
+    }
+
+#ingredientsContent {
+    display: block;
+    float: left;
+    padding-left: 5px;
+    width: 50%;
+}
+
+    #ingredientsContent h1 {
+        text-align: center;
+    }
+
+    #ingredientsContent ul {
+        text-align: left;
+    }
+
+#processContent {
+    display: block;
+    float: left;
+    padding-right: 5px;
+    width: 50%;
+}
+
+    #processContent h1 {
+        text-align: center;
+    }
+
+    #processContent ul {
+        text-align: left;
+    }
+
 /*********************************************************************************/
 /* Images                                                                        */
 /*********************************************************************************/
@@ -215,11 +258,12 @@ img.header {
 #carving, #hauntedImage, #cornImage, #food {
     border: 2px solid white;
     border-radius: 25px;
-    margin-left: 50px;
-    width: 225px;
+    display: block;
+    float: left;
     height: 200px;
-    float: right;
-    margin: 15px 15px;
+    margin-left: 130px;
+    margin-top: -50px;
+    width: 225px;
 }
 
 .hauntedImage {
@@ -257,6 +301,10 @@ img.header {
     left: 0px;
     transition: left .5s ease-in-out;
 }
+
+    #wrapper p {
+        color: #FFFFFF;
+    }
 
 .content {
     float: left;
@@ -324,6 +372,14 @@ img.header {
                     background-color: #484848;
                     color: #FFFFFF;
                 }
+
+#sliderDescriptor {
+    display: inline-block;
+    font-size: 12px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
 
 /*********************************************************************************/
 /* Button                                                                        */
