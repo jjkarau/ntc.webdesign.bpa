@@ -264,7 +264,6 @@ img.header {
     white-space: normal;
     width: 955px;
     text-align: center;
-    padding-top: 70px;
 }
 
     .content p {
@@ -275,21 +274,21 @@ img.header {
         margin: 0;
     }
 
-/* For bugfix testing .... */
-/*
-#itemOne {
-    background-color: #0099CC;
-}
+    /* For bugfix testing .... */
+    /*
+    #itemOne {
+        background-color: #000000;
+    }
 
-#itemTwo {
-    background-color: #FFCC00;
-}
-*/
-/***************************/
+    #itemTwo {
+        background-color: #FFFFFF;
+    }
+    */
+    /***************************/
 
 #navLinks {
     text-align: center;
-    width: 550px;
+    width: 960px;
 }
 
     #navLinks ul {
@@ -312,11 +311,11 @@ img.header {
         }
 
             #navLinks ul li:hover {
-                background-color: #FFFF00;
+                background-color: #FFBE4a;
             }
 
             #navLinks ul li.active {
-                background-color: #333333;
+                background-color: #FFBE4a;
                 color: #FFFFFF;
                 outline-width: 7px;
             }
