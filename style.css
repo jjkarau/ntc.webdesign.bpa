@@ -242,6 +242,91 @@ img.header {
 }
 
 /*********************************************************************************/
+/* Slider                                                                        */
+/*********************************************************************************/
+
+#contentContainer {
+    width: 955px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#wrapper {
+    width: 1920px;
+    position: relative;
+    left: 0px;
+    transition: left .5s ease-in-out;
+}
+
+.content {
+    float: left;
+    height: 500px;
+    white-space: normal;
+    width: 955px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+    .content p {
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        opacity: .3;
+        font-size: 14px;
+        margin: 0;
+    }
+
+/* For bugfix testing .... */
+/*
+#itemOne {
+    background-color: #0099CC;
+}
+
+#itemTwo {
+    background-color: #FFCC00;
+}
+*/
+/***************************/
+
+#navLinks {
+    text-align: center;
+    width: 550px;
+}
+
+    #navLinks ul {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        margin-top: 6px;
+    }
+
+        #navLinks ul li {
+            float: left;
+            text-align: center;
+            margin: 10px;
+            list-style: none;
+            cursor: pointer;
+            background-color: #CCCCCC;
+            padding: 5px;
+            border-radius: 50%;
+            border: black 5px solid;
+        }
+
+            #navLinks ul li:hover {
+                background-color: #FFFF00;
+            }
+
+            #navLinks ul li.active {
+                background-color: #333333;
+                color: #FFFFFF;
+                outline-width: 7px;
+            }
+
+                #navLinks ul li.active:hover {
+                    background-color: #484848;
+                    color: #FFFFFF;
+                }
+
+/*********************************************************************************/
 /* Button                                                                        */
 /*********************************************************************************/
 
