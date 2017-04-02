@@ -21,7 +21,7 @@ html {
 
 body {
     color: #FFFFFF;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Times, serif;
     font-size: 12pt;
     font-weight: 400;
     padding: 0px;
@@ -230,6 +230,7 @@ ul.tabs li {
     }
 
     #processContent ul {
+        font-size: 15px;
         text-align: left;
     }
 
@@ -315,9 +316,7 @@ img.header {
 }
 
     .content p {
-        font-family: Arial, sans-serif;
         font-weight: bold;
-        opacity: .3;
         font-size: 14px;
         margin: 0;
     }
