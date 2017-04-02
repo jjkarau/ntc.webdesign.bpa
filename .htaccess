@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI}  ^/([^/]+)$
+RewriteRule .*  https://jjkarau.github.io/ntc.webdesign.bpa/%1 [L]
